@@ -1,0 +1,16 @@
+/** 
+ * created 2.3.2020
+ * @author Mahfujur Rahman
+ * description: This program declares a variable
+ */ 
+
+public class PracticeWeek2 {
+	public static void main (String[]args) {
+	// Define a variable type double with value 10.35*/
+		double money = 10.35;
+	//Define a variable type with value of 5	
+		byte number = 5;
+	//Define a variable type with a value of 3	
+		int age = 3; 
+		//Declare 3 String variables
+		
