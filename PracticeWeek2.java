@@ -1,0 +1,28 @@
+/** 
+ * @author Mahfujur Rahman
+ created 2/3/2020
+ * description: Defining Variables
+ */ 
+
+public class PracticeWeek2 {
+	public static void main (String[]args) {
+	// Define a variable type double with value 10.35*/
+		double money = 10.35;
+	//Define a variable type with value of 5*/	
+		byte number = 5;
+	//Define a variable type with a value of 3*/	
+		int age = 3; 
+		//Declare 3 String variables
+	
+	String greeting;
+	String goodbye;
+	String saying; 
+	//Assign values to those previously created variables
+	greeting = "Hi";
+	goodbye = "Take care";
+	saying = "To each their own";
+	System.out.println(greeting);
+	System.out.println(greeting+saying);//Expected : HiTo each their own
+	}
+}
+		
