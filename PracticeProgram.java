@@ -1,0 +1,30 @@
+/**
+ * 
+ * @author Mahfujur Rahman
+ * Desc: Write program that computes the product of the three numbers where the numbers are entered by the user
+ * created 2/5/2020
+ */
+import java.util.Scanner;;
+public class PracticeProgram {
+	public static void main(String[]args) {
+		Scanner scnr = new Scanner(System.in);
+		
+		int number1;
+		int number2;
+		int number3;
+		
+		System.out.println("Welcome to Product Computer");
+		System.out.println("Enter 3 numbers to get your product");
+		
+		number1 = scnr .nextInt();
+		number2 = scnr .nextInt();
+		number3 = scnr .nextInt();
+		
+		int product = number1 * number2 * number3;
+		System.out.println("The product is "+product); 
+		
+	}
+	
+
+	
+}
