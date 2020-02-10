@@ -1,0 +1,38 @@
+/**
+ * @author Mahfujur Rahman
+ * created 2/10/2020
+ * desc:
+ */
+package week3;
+
+import java.io.StringWriter;
+import java.io.PrintWriter;
+import java.util.Scanner;
+
+public class week3 {
+	
+	public static void main(String[] args) {
+		StringWriter sw = new StringWriter();
+		PrintWriter pw = new PrintWriter(sw);
+		pw.println("The sky is gray");
+		pw.println("Pablo Yanilda");
+		pw.print("The class blows mine");
+	
+		
+		
+		System.out.println(sw.toString());
+		
+		
+		
+		
+		//Scanner kb = new Scanner("12 Maria Gonzalez");
+		//System.out.println(kb.nextInt());
+		//System.out.println(kb.next());
+		//System.out.println(kb.next());
+		
+	}
+	
+
+
+
+}
