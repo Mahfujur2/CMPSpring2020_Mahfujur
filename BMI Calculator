@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+/**
+ * 
+ * @author Mahfujur Rahman
+ * created 2/10/2020
+ * descriptipn: This Program calculates the BMI of 3 Different Users
+ *
+ */
+public class BMICalculator {
+	public static void main(String[]args) {
+		Scanner  scnr new scnr.nextDouble(System.in);
+		
+		System.out.println("This program calculates the BMI of 3 different users");
+		System.out.println("User 1, please enter your name");
+		System.out.println("User 2, please enter your name");
+		System.out.println("User 3, please enter your name");
+		
+		String name1 = scnr.next();
+		String name2 = scnr.next();
+		String name3 = scnr.next();
+		
+		System.out.print("User 1, please enter your weight in lbs");
+		System.out.print("User 2, please enter your weight in lbs");
+		System.out.print("User 3, please enter your weight in lbs");
+		
+		double a1 = scnr.nextDouble();
+		double a2 = scnr.nextDouble();
+		double a3 = scnr.nextDouble();
+		
+		System.out.print("User 1, enter your height in inches");
+		System.out.print("User 2, enter your height in inches");
+		System.out.print("User 3. enter your height in inches");
+		
+		double b1 = scnr.nextDouble();
+		double b2 = scnr.nextDouble();
+		double b3 = scnr.nextDouble();
+		
+		double BMI = (a1 * 703) / (b1 * b1);
+		double BM2 = (a1 * 703) / (b2 * b2);
+		double BM3 = (a1 * 703) / (b3 * b3);
+		
+		System.out.print("");
