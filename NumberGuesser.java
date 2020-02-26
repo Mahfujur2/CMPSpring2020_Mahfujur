@@ -1,8 +1,8 @@
 /**
  * 
  * @author Mahfujur Rahman
- * created 2.24.2020
- * description: Pick a number and ask the user to enter a number, if the user enters THE RIGHT NUMBER say Victory 3 times, if user loses say Game Over 3 times
+ * Created 2.24.2020
+ * Description: Pick a number and ask the user to enter a number, if the user enters THE RIGHT NUMBER say Victory 3 times, if user loses say Game Over 3 times
  */
 import java.util.Scanner
 import.java.util.Random;
@@ -21,7 +21,7 @@ public class NumberGuesserCode {
 		}
 	
 		else {
-			System.out.println("Game Over! Gameover! Game Over!");
+			System.out.println("Game Over! Game Over! Game Over!");
 		}
 	
 				  
