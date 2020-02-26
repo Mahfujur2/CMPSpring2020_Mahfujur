@@ -1,33 +1,32 @@
 /**
  * 
  * @author Mahfujur Rahman
- * Created 2.24.2020
- * Description: Pick a number and ask the user to enter a number, if the user enters THE RIGHT NUMBER say Victory 3 times, if user loses say Game Over 3 times
+ *
  */
-import java.util.Scanner
-import.java.util.Random;
-public class NumberGuesserCode {
-	public static void main(String[]args)
-		Scanner scnr = new Scanner(System.in);
-	
-		System.out.println("In this game you are to guess the correct number.")
-		System.out.println("Enter the number you wish to guess between 1 and 20:");
-		int userInput = scnr.nextInt();
-		int rightNum = 20;
-		
-		if(userInput == rightNum) {
-			system.out.println("Victory! Victory! Victory!");
-			
-		}
-	
-		else {
-			System.out.println("Game Over! Game Over! Game Over!");
-		}
-	
-				  
-	
-		
-	}
-	
+import java.util.Random;
+import java.util.Scanner;
 
+public class NumberGuesser{
+	public static void main(String[]args) {
+		Scanner kb = new Scanner(System.in);
+		Random rand = new Random();
+		System.out.println("Welcome to the number guesser");
+		
+		int randPick= rand.nextInt(3);
+		
+		System.out.print("Enter a number from 0 to 2: ");
+		int userPick= kb.nextInt();
+		
+		if(userPick==randPick) 
+			for(int i=0;i<3;i++)
+				System.out.println("victory");
+		else
+			for(int i=0;i<3;i++)
+				System.out.println("Game Over");
+	}
 }
+		
+
+
+
+
